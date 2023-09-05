@@ -52,14 +52,14 @@ android {
       abiFilters.clear()
       abiFilters += setOf("armeabi-v7a", "arm64-v8a", "x86", "x86_64")
     }
-
+/*
     val properties = Properties().apply {
       load(rootProject.file("local.properties").reader())
     }
     buildConfigField("String", "PRODUCT_ID_X1", "\"${properties["PRODUCT_ID_X1"]}\"")
     buildConfigField("String", "PRODUCT_ID_X2", "\"${properties["PRODUCT_ID_X2"]}\"")
     buildConfigField("String", "PRODUCT_ID_X3", "\"${properties["PRODUCT_ID_X3"]}\"")
-  }
+*/  }
 
   signingConfigs {
     create("release") {
