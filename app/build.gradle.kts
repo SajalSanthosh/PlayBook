@@ -55,11 +55,12 @@ android {
 /*
     val properties = Properties().apply {
       load(rootProject.file("local.properties").reader())
-    }
-    buildConfigField("String", "PRODUCT_ID_X1", "\"${properties["PRODUCT_ID_X1"]}\"")
-    buildConfigField("String", "PRODUCT_ID_X2", "\"${properties["PRODUCT_ID_X2"]}\"")
-    buildConfigField("String", "PRODUCT_ID_X3", "\"${properties["PRODUCT_ID_X3"]}\"")
-*/  }
+    }*/
+
+    buildConfigField("String", "PRODUCT_ID_X1", "PRODUCT_ID_X1")
+    buildConfigField("String", "PRODUCT_ID_X2", "PRODUCT_ID_X2")
+    buildConfigField("String", "PRODUCT_ID_X3", "PRODUCT_ID_X3")
+  }
 
   signingConfigs {
     create("release") {
