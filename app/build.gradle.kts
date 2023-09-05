@@ -57,9 +57,9 @@ android {
       load(rootProject.file("local.properties").reader())
     }*/
 
-    buildConfigField("String", "PRODUCT_ID_X1", "PRODUCT_ID_X1")
-    buildConfigField("String", "PRODUCT_ID_X2", "PRODUCT_ID_X2")
-    buildConfigField("String", "PRODUCT_ID_X3", "PRODUCT_ID_X3")
+    buildConfigField("String", "PRODUCT_ID_X1", "\"PRODUCT_ID_X11\"")
+    buildConfigField("String", "PRODUCT_ID_X2", "\"PRODUCT_ID_X22\"")
+    buildConfigField("String", "PRODUCT_ID_X3", "\"PRODUCT_ID_X33\"")
   }
 
   signingConfigs {
